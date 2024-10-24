@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Software_Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>ATmega_One_Wire</Name>
+  <Identifier>29ab3c4d-41b7-4c23-9d4b-97aaf5216c4f</Identifier>
+  <Description>ATmega_One_Wire project.</Description>
+  <Packages_References>
+    <Package_Reference>
+      <Last_Known_Name>One_Wire_Interfaces</Last_Known_Name>
+      <Relative_Path>..\..\One_Wire_Interfaces\mdl\One_Wire_Interfaces.pkgx</Relative_Path>
+      <Is_Writable>false</Is_Writable>
+    </Package_Reference>
+    <Package_Reference>
+      <Last_Known_Name>ATmega_One_Wire</Last_Known_Name>
+      <Relative_Path>ATmega_One_Wire.pkgx</Relative_Path>
+      <Is_Writable>true</Is_Writable>
+    </Package_Reference>
+  </Packages_References>
+</Software_Project>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Top_Level_Package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>ATmega_One_Wire</Name>
+  <Identifier>2d124e69-2bdb-4f22-9b10-3615ac8d4872</Identifier>
+  <Description>Gathers software elements allowing to manage a 1-Wire bus through a digital pin of an ATmega chip.</Description>
+  <Packages />
+  <Types />
+  <Interfaces />
+  <Component_Types>
+    <Component_Type>
+      <Name>ATmega32_1Wire</Name>
+      <Identifier>138c2196-b00d-47ff-825e-10551d3f1388</Identifier>
+      <Description>This Component_Type allows to manage a 1-Wire bus through a digital pin of an ATmega32 chip.
+The pin of the ATmega chip needs to be selected using the port register.
+</Description>
+      <Configurations>
+        <Configuration_Parameter>
+          <Name>Port_Adress</Name>
+          <Identifier>5da41097-9196-4e6a-9a13-60872d930ba7</Identifier>
+          <Description>Adress of the port of the microcontroller.</Description>
+          <Referenced_Type_Id>058963e7-375f-4f57-aceb-5a2f36b75490</Referenced_Type_Id>
+        </Configuration_Parameter>
+        <Configuration_Parameter>
+          <Name>Bit_Index</Name>
+          <Identifier>522e7b3c-ecac-43be-8c53-d0c294155781</Identifier>
+          <Description>Index of the bit of the pin in the register (7 to 0).</Description>
+          <Referenced_Type_Id>058963e7-375f-4f57-aceb-5a2f36b75490</Referenced_Type_Id>
+        </Configuration_Parameter>
+      </Configurations>
+      <Operations />
+      <Provider_Ports>
+        <Provider_Port>
+          <Name>Communication</Name>
+          <Identifier>666251c0-5def-4d47-8209-be768c4d1e8c</Identifier>
+          <Description />
+          <Referenced_Interface_Id>f99c8ff7-b5bd-4984-b1a4-ae183a460401</Referenced_Interface_Id>
+        </Provider_Port>
+      </Provider_Ports>
+      <Requirer_Ports />
+    </Component_Type>
+  </Component_Types>
+  <Compositions />
+</Top_Level_Package>

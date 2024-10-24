@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><svg  Version="1.1"  xmlns="http://www.w3.org/2000/svg"  xmlns:xlink="http://www.w3.org/1999/xlink"  xmlns:svg="http://www.w3.org/2000/svg"  width="1020px" height="570px">  <style>text{font-size:12px;font-family:Consolas;fill:gray;text-anchor:start;}</style>  <style>svg { background-Color: black; color: white;}</style>
+  <defs>
+  <g id="138c2196-b00d-47ff-825e-10551d3f1388_alt">
+  <defs>
+  <g id="058963e7-375f-4f57-aceb-5a2f36b75490">
+  <rect x="0px" y="0px" width="230px" height="35px"
+    style="fill:rgb(136,0,21);fill-opacity:0.3;stroke:rgb(136,0,21);stroke-width:1px"/>
+  <text style="font-size:10px;text-anchor:middle;" x="115px" y="13px">&lt;&lt;Basic_Integer_Type&gt;&gt;</text>
+  <text style="font-size:12px;text-anchor:middle;font-weight:bold;" x="115px" y="28px">uint8</text>
+  <rect x="0px" y="35px" width="230px" height="65px"
+    style="fill:rgb(136,0,21);fill-opacity:0.2;stroke:rgb(136,0,21);stroke-width:1px"/>
+  <text style="font-size:12px;" x="10px" y="48px">Pre-defined basic data type</text>
+  <text style="font-size:12px;" x="10px" y="63px">which allows to model a data</text>
+  <text style="font-size:12px;" x="10px" y="78px">representing a unsigned integer</text>
+  <text style="font-size:12px;" x="10px" y="93px">value from 0 to 255.</text>
+  </g>
+  </defs>
+  <use xlink:href="#058963e7-375f-4f57-aceb-5a2f36b75490" transform="translate(0,0)" />
+  <defs>
+  <g id="7bbb6c3b-4c87-4703-a133-f6b287139fbc">
+  <rect x="0px" y="0px" width="230px" height="35px"
+    style="fill:rgb(136,0,21);fill-opacity:0.3;stroke:rgb(136,0,21);stroke-width:1px"/>
+  <text style="font-size:10px;text-anchor:middle;" x="115px" y="13px">&lt;&lt;Array_Type&gt;&gt;</text>
+  <text style="font-size:12px;text-anchor:middle;font-weight:bold;" x="115px" y="28px">T_One_Wire_Device_Address</text>
+  <rect x="0px" y="35px" width="230px" height="155px"
+    style="fill:rgb(136,0,21);fill-opacity:0.2;stroke:rgb(136,0,21);stroke-width:1px"/>
+  <text style="font-size:12px;" x="10px" y="48px">Allows to model a data</text>
+  <text style="font-size:12px;" x="10px" y="63px">representing the address of a</text>
+  <text style="font-size:12px;" x="10px" y="78px">OneWire bus slave device.</text>
+  <text style="font-size:12px;" x="10px" y="93px">The first byte is the 1-Wire</text>
+  <text style="font-size:12px;" x="10px" y="108px">device family code.</text>
+  <text style="font-size:12px;" x="10px" y="123px">The next 6 bytes (48 bits) are a</text>
+  <text style="font-size:12px;" x="10px" y="138px"> unique serial number.</text>
+  <text style="font-size:12px;" x="10px" y="153px">The last byte is a CRC</text>
+  <text style="font-size:12px;" x="10px" y="168px">(=X^8+X^5+X^4+1) calculated from</text>
+  <text style="font-size:12px;" x="10px" y="183px"> the first 56 bits.</text>
+  <rect x="0px" y="190px" width="230px" height="35px"
+    style="fill:rgb(136,0,21);fill-opacity:0.2;stroke:rgb(136,0,21);stroke-width:1px"/>
+  <text style="font-size:12px;" x="10px" y="203px">Dimension : [8]</text>
+  <text style="font-size:12px;" x="10px" y="218px">Base : byte</text>
+  </g>
+  </defs>
+  <use xlink:href="#7bbb6c3b-4c87-4703-a133-f6b287139fbc" transform="translate(250,0)" />
+  <defs>
+  <g id="97d8da02-29ed-4ba2-9d78-07fff6147434">
+  <rect x="0px" y="0px" width="230px" height="35px"
+    style="fill:rgb(136,0,21);fill-opacity:0.3;stroke:rgb(136,0,21);stroke-width:1px"/>
+  <text style="font-size:10px;text-anchor:middle;" x="115px" y="13px">&lt;&lt;Basic_Carrier_Type&gt;&gt;</text>
+  <text style="font-size:12px;text-anchor:middle;font-weight:bold;" x="115px" y="28px">byte</text>
+  <rect x="0px" y="35px" width="230px" height="65px"
+    style="fill:rgb(136,0,21);fill-opacity:0.2;stroke:rgb(136,0,21);stroke-width:1px"/>
+  <text style="font-size:12px;" x="10px" y="48px">Pre-defined basic data type</text>
+  <text style="font-size:12px;" x="10px" y="63px">which allows to model a data</text>
+  <text style="font-size:12px;" x="10px" y="78px">stored on 8 bits, without</text>
+  <text style="font-size:12px;" x="10px" y="93px">arithmetic purposes.</text>
+  </g>
+  </defs>
+  <use xlink:href="#97d8da02-29ed-4ba2-9d78-07fff6147434" transform="translate(500,0)" />
+  <defs>
+  <g id="0b4cfce7-356b-4235-b6c1-2d4c61509bd6">
+  <rect x="0px" y="0px" width="230px" height="35px"
+    style="fill:rgb(136,0,21);fill-opacity:0.3;stroke:rgb(136,0,21);stroke-width:1px"/>
+  <text style="font-size:10px;text-anchor:middle;" x="115px" y="13px">&lt;&lt;Array_Type&gt;&gt;</text>
+  <text style="font-size:12px;text-anchor:middle;font-weight:bold;" x="115px" y="28px">T_One_Wire_Message</text>
+  <rect x="0px" y="35px" width="230px" height="50px"
+    style="fill:rgb(136,0,21);fill-opacity:0.2;stroke:rgb(136,0,21);stroke-width:1px"/>
+  <text style="font-size:12px;" x="10px" y="48px">Allows to model a data that</text>
+  <text style="font-size:12px;" x="10px" y="63px">represent a message transmitted</text>
+  <text style="font-size:12px;" x="10px" y="78px">by the 1-Wire protocol.</text>
+  <rect x="0px" y="85px" width="230px" height="35px"
+    style="fill:rgb(136,0,21);fill-opacity:0.2;stroke:rgb(136,0,21);stroke-width:1px"/>
+  <text style="font-size:12px;" x="10px" y="98px">Dimension : [1..*]</text>
+  <text style="font-size:12px;" x="10px" y="113px">Base : byte</text>
+  </g>
+  </defs>
+  <use xlink:href="#0b4cfce7-356b-4235-b6c1-2d4c61509bd6" transform="translate(750,0)" />
+  <defs>
+  <g id="f99c8ff7-b5bd-4984-b1a4-ae183a460401">
+  <rect x="0px" y="0px" width="340px" height="35px"
+    style="fill:rgb(34,177,76);fill-opacity:0.3;stroke:rgb(34,177,76);stroke-width:1px"/>
+  <text style="font-size:10px;text-anchor:middle;" x="170px" y="13px">&lt;&lt;Client_Server_Interface&gt;&gt;</text>
+  <text style="font-size:12px;text-anchor:middle;font-weight:bold;font-style:italic;" x="170px" y="28px">One_Wire_Protocol</text>
+  <rect x="0px" y="35px" width="340px" height="80px"
+    style="fill:rgb(34,177,76);fill-opacity:0.2;stroke:rgb(34,177,76);stroke-width:1px"/>
+  <text style="font-size:12px;" x="10px" y="48px">This interface gathers operations allowing to</text>
+  <text style="font-size:12px;" x="10px" y="63px">execute basic sequences of the 1-Wire</text>
+  <text style="font-size:12px;" x="10px" y="78px">communication protocol.</text>
+  <text style="font-size:12px;" x="10px" y="93px">Every operation first performs a reset, then</text>
+  <text style="font-size:12px;" x="10px" y="108px">selects the slave and finally sends the command.</text>
+  <rect x="0px" y="115px" width="340px" height="170px"
+    style="fill:rgb(34,177,76);fill-opacity:0.2;stroke:rgb(34,177,76);stroke-width:1px"/>
+  <text style="font-size:12px;font-style:italic;" x="10px" y="128px">+ Send_Simple_Command(</text>
+  <text style="font-size:12px;font-style:italic;" x="10px" y="143px">&#160;&#160;&#160;&#160;&#160;&#160;IN slave_address:T_One_Wire_Device_Address,</text>
+  <text style="font-size:12px;font-style:italic;" x="10px" y="158px">&#160;&#160;&#160;&#160;&#160;&#160;IN command:byte )</text>
+  <text style="font-size:12px;font-style:italic;" x="10px" y="173px">+ Send_Write_Command(</text>
+  <text style="font-size:12px;font-style:italic;" x="10px" y="188px">&#160;&#160;&#160;&#160;&#160;&#160;IN slave_address:T_One_Wire_Device_Address,</text>
+  <text style="font-size:12px;font-style:italic;" x="10px" y="203px">&#160;&#160;&#160;&#160;&#160;&#160;IN command:byte,</text>
+  <text style="font-size:12px;font-style:italic;" x="10px" y="218px">&#160;&#160;&#160;&#160;&#160;&#160;IN message:T_One_Wire_Message )</text>
+  <text style="font-size:12px;font-style:italic;" x="10px" y="233px">+ Send_Read_Command(</text>
+  <text style="font-size:12px;font-style:italic;" x="10px" y="248px">&#160;&#160;&#160;&#160;&#160;&#160;IN slave_address:T_One_Wire_Device_Address,</text>
+  <text style="font-size:12px;font-style:italic;" x="10px" y="263px">&#160;&#160;&#160;&#160;&#160;&#160;IN command:byte,</text>
+  <text style="font-size:12px;font-style:italic;" x="10px" y="278px">&#160;&#160;&#160;&#160;&#160;&#160;OUT message:T_One_Wire_Message )</text>
+  </g>
+  </defs>
+  <use xlink:href="#f99c8ff7-b5bd-4984-b1a4-ae183a460401" transform="translate(0,245)" />
+  <defs>
+  <g id="138c2196-b00d-47ff-825e-10551d3f1388">
+  <defs>
+  <g id="666251c0-5def-4d47-8209-be768c4d1e8c">
+  <text style="font-size:12px;text-anchor:end;" x="212px" y="15px">Communication:One_Wire_Protocol</text>
+  <rect x="212px" y="18px" width="16px" height="16px"
+    style="fill:rgb(255,255,255);fill-opacity:0.2;stroke:rgb(255,255,255);stroke-width:1px"/>
+  <line x1="202px" y1="26px" x2="212px" y2="26px"
+    style="stroke:rgb(255,255,255);stroke-width:1px"/>
+  <circle cx="194px" cy="26px" r="8px"
+    style="fill:rgb(255,255,255);fill-opacity:0.2;stroke:rgb(255,255,255);stroke-width:1px"/>
+  </g>
+  </defs>
+  <use xlink:href="#666251c0-5def-4d47-8209-be768c4d1e8c" transform="translate(0,20)" />
+  <rect x="228px" y="0px" width="230px" height="35px"
+    style="fill:rgb(255,255,255);fill-opacity:0.3;stroke:rgb(255,255,255);stroke-width:1px"/>
+  <text style="font-size:10px;text-anchor:middle;" x="343px" y="13px">&lt;&lt;Component_Type&gt;&gt;</text>
+  <text style="font-size:12px;text-anchor:middle;font-weight:bold;" x="343px" y="28px">ATmega32_1Wire</text>
+  <rect x="228px" y="35px" width="230px" height="110px"
+    style="fill:rgb(255,255,255);fill-opacity:0.2;stroke:rgb(255,255,255);stroke-width:1px"/>
+  <text style="font-size:12px;" x="238px" y="48px">This Component_Type allows to</text>
+  <text style="font-size:12px;" x="238px" y="63px">manage a 1-Wire bus through a</text>
+  <text style="font-size:12px;" x="238px" y="78px">digital pin of an ATmega32 chip.</text>
+  <text style="font-size:12px;" x="238px" y="93px"></text>
+  <text style="font-size:12px;" x="238px" y="108px">The pin of the ATmega chip needs</text>
+  <text style="font-size:12px;" x="238px" y="123px"> to be selected using the port</text>
+  <text style="font-size:12px;" x="238px" y="138px">register.
+</text>
+  <rect x="228px" y="145px" width="230px" height="35px"
+    style="fill:rgb(255,255,255);fill-opacity:0.2;stroke:rgb(255,255,255);stroke-width:1px"/>
+  <text style="font-size:12px;" x="238px" y="158px">+ Port_Adress : uint8</text>
+  <text style="font-size:12px;" x="238px" y="173px">+ Bit_Index : uint8</text>
+  <rect x="228px" y="180px" width="230px" height="20px"
+    style="fill:rgb(255,255,255);fill-opacity:0.2;stroke:rgb(255,255,255);stroke-width:1px"/>
+  </g>
+  </defs>
+  <use xlink:href="#138c2196-b00d-47ff-825e-10551d3f1388" transform="translate(360,245)" />
+  </g>
+  </defs>
+
+  <use xlink:href="#138c2196-b00d-47ff-825e-10551d3f1388_alt" transform="translate(20,20)" />
+</svg>
